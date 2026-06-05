@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    
+}
+
+body {
+    background: url("https://th.bing.com/th/id/OIP.ROwnNd14kgr1hETPUiTLLAHaEK?w=309&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inicial {
+    margin: 0;
+    color: black;
+    background-color: #dedede;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: Arial;
+    width: 450px;
+    height: 140px;
+    margin-left: 4px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px
+}
+
+p {
+    font-family: cursive;
+    margin-top: 12px
+}
+
+.two {
+    margin: 0;
+    background-color: #dedede;
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin-top: 15px;
+    flex-direction: column;
+    top: 170px
+}
+
+label {
+    font-family: cursive;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    border-radius: 20px
+}
+
+button {
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: -50px
+}
+
+.text {
+    background-color: #dedede;
+    border-radius: 25px;
+    padding: 20px;
+    width: 270px;
+    height: 330px;
+    margin-left: 270px;
+    margin-top:  -260px
+}
