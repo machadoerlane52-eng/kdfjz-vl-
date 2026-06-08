@@ -1,77 +1,87 @@
 * {
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: url("https://th.bing.com/th/id/OIP.ROwnNd14kgr1hETPUiTLLAHaEK?w=309&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(aqua, blue);
+    min-height: 100vh;
+    padding: 15px;
 }
 
 .inicial {
-    margin: 0;
-    color: black;
     background-color: #dedede;
     border-radius: 20px;
-    font-size: medium;
-    font-family: Arial;
     width: 450px;
-    height: 140px;
-    margin-left: 4px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 10px
+    padding: 15px;
 }
 
-p {
+.inicial p {
     font-family: cursive;
-    margin-top: 12px
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: flex-start;
 }
 
 .two {
-    margin: 0;
     background-color: #dedede;
-    display: block;
-    position: absolute;
     border-radius: 20px;
-    width: 200px;
-    height: 250px;
-    padding: 10px;
-    margin-top: 15px;
-    flex-direction: column;
-    top: 170px
+    width: 220px;
+    padding: 15px;
+}
+
+.two h2 {
+    margin-bottom: 15px;
 }
 
 label {
-    font-family: cursive;
     display: block;
+    font-family: cursive;
     margin-bottom: 5px;
 }
 
 input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
     margin-bottom: 15px;
-    border-radius: 20px
+    border: 1px solid #aaa;
 }
 
 button {
-    padding: 10px;
-    border-radius: 25px;
-    margin-left: 50px;
-    margin-top: -50px
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.link {
+    margin-top: 20px;
+    box-shadow: 1px 1px 11px black;
+}
+
+.link a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .text {
     background-color: #dedede;
-    border-radius: 25px;
+    border-radius: 20px;
+    width: 350px;
     padding: 20px;
-    width: 270px;
-    height: 330px;
-    margin-left: 270px;
-    margin-top:  -260px
+}
+
+.text p {
+    margin-top: 15px;
+    font-family: cursive;
 }
