@@ -64,14 +64,26 @@ button {
 
 .link {
     margin-top: 20px;
-    box-shadow: 1px 1px 11px black;
+    list-style-type: none;
 }
 
-.link a {
+.imagemss {
     color: red;
     text-decoration: none;
+    display: flex;
+    justify-self: center;
     font-weight: bold;
     font-size: 22px;
+    list-style: none;
+}
+
+.imagems {
+    color: gray; 
+    display: flex;
+    justify-self: center;
+    margin-top: 5px;
+    width: 27px;
+    list-style: none;
 }
 
 .text {
